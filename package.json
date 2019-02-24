@@ -1,0 +1,11 @@
+{
+  "name": "tsexampleapp",
+  "version": "1.0.0",
+  "description": "Typescript Example App",
+  "main": ".src",
+  "scripts": {
+    "cook": "tsc ./src/startup.ts --outDir ./build && node ./build/startup.js"
+  },
+  "author": "https://github.com/evgshk",
+  "license": "ISC"
+}
